@@ -34,21 +34,31 @@ The model is deployed through a **Streamlit web application**, allowing real-tim
 ## 📂 Project Structure
 
 nlp_mental_health/
+
 │
+
 ├── data/
+
 │ ├── raw/ # Original dataset
+
 │ └── processed/ # Cleaned + Split (train/test)
-│
+
 ├── models/
+
 │ └── distilbert_model/ # Saved fine-tuned model + tokenizer
-│
+
 ├── src/
+
 │ ├── prepare_data.py # Cleans + splits dataset
+
 │ └── train_distilbert.py # Full model training script
-│
+
+
 ├── webapp/
+
 │ └── app.py # Streamlit UI
-│
+
+
 └── README.md
 
 🤝 Contribution
