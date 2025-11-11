@@ -1,0 +1,9 @@
+models/
+venv/
+__pycache__/
+*.bin
+*.safetensors
+*.pt
+*.h5
+*.log
+.vscode/
