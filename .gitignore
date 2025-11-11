@@ -1,8 +1,19 @@
+# Ignore model weights
 models/
+
+# Ignore environment
+venv/
+
+# Ignore caches
+__pycache__/
+
+# Ignore binary model files
 *.bin
 *.safetensors
 *.pt
 *.h5
 *.log
-__pycache__/
-*.txt~ 
+
+# Ignore VS Code settings
+.vscode/
+
